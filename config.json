@@ -1,0 +1,10 @@
+{
+  "token" : "디스코드 봇 토큰",
+  "twitch_channel" : "트위치전송해당 스트리머 id",
+  "discord_channel" : "디스코드 채널 id",
+  "max" : "트위치 최대전송 메세지글자수",
+  "activity" : "디스코드 봇 상테메세지",
+
+  "twitch_username" : "트위치 봇의 계정 id",
+  "twitch_token" : "트위치 봇의 계정 토큰"
+}
