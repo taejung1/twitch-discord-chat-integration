@@ -1,5 +1,5 @@
 const { token, twitch_channel, max, activity, twitch_username, twitch_token, discord_channel } = require('./config.json')
-const { Client } = require('client.js');
+const { Client } = require('discord.js');
 const tmi = require('tmi.js');
 
 const options = {
