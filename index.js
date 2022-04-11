@@ -24,7 +24,7 @@ twitch.connect().catch(console.error);
 
 client.once('ready', () => {
 	client.user.setActivity(activity, { type: "PLAYING" })
-	console.log(`Logged In As ${client.user.tag} | 해당봇을 라이선스가 포함되어있습니다`)
+	console.log(`Logged In As ${client.user.tag} | 해당코드을 라이선스가 포함되어있습니다`)
 	console.log(`오류문의 : 태정#7777 | Node.js 버전 : ${process.version} ( 16이상이여야지 문제없이 작동됩니다 )`);
 })
 
