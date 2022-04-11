@@ -29,11 +29,16 @@ tmi.js 모둘을 사용한 디스코드 트위치 채팅 연동봇
 }
 ```
 
-1 . 트위치 계정을 준비합니다 ( 트위치 봇이 아니며 사람 **계정**입니다.    
+우선 node.js 을 다운받아줍니다 ( 16버전을 깔아주세요)  
+install.bat 을 클릭하여 모듈을 다운받아줍니다.
+
+1 . 트위치 계정을 준비합니다 ( 트위치 봇이 아니며 사람 **계정**입니다)
 
 2 . 트위치 만든 계정으로 로그인한 상태로 https://twitchapps.com/tmi/ 에 접속하여 토큰을 발급해주세요.    
 
-3 . config.json 에 token , twitch_channel(이름이 아닌 id 입니다) , discord_channel
+3 . config.json 에 token , twitch_channel(이름이 아닌 id 입니다) , discord_channel , max , activity , twitch_username  ,twitch_token  
+
+4 . 세팅이 모두 끝나셨다면 start.bat 을 클릭하여 봇을 실행합니다  
 
 discord_channel 에 채널id 를 넣으시면 됩니다 , 채널id 는 < 사용자 설정 => 고급 => 개발자모드를 켜주시고 채널에 우클릭하여 얻으실수있습니다.
 
